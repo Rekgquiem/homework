@@ -1,0 +1,115 @@
+.body {
+	background-color: #CCCCCC;
+	padding: 0;
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header {
+	height: 50px;
+	width: 100%;
+	background-color: #B9B9B9;
+	position: absolute;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 1%;
+	text-align: center;
+}
+
+.upper_text_a {
+	margin-left: 11%;
+	margin-right: 11%;
+	font-size: 1.7em;
+	text-decoration: none;
+}
+
+.upper_text_a:visited, .upper_text_a:link {
+	color: #8A8A8A;
+}
+
+.upper_text_a:hover {
+	text-decoration: overline;
+	color: black;
+}
+
+
+
+
+
+
+.big_upper_text {
+	position: absolute;
+	margin-top: 70px;
+	margin-left: 750px;
+	font-size: 2em;
+	text-decoration: overline;
+	cursor: default;;
+	padding-top: 0;
+	text-align: center;
+}
+
+.big_upper_text:hover {
+	text-decoration: underline white;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+.upper_information_p {
+	margin-top: 8%;
+	display: flex;
+	position: absolute;
+	font-size: 1.8em;
+}
+
+.up_inf1 {
+	margin-left: 260px;
+}
+
+.up_inf2 {
+	margin-left: 450px;
+}
+
+.up_inf3 {
+	margin-left: 450px;
+}
+
+.upper_information_p:hover {
+	cursor: default;
+}
+
+
+
+
+
+
+
+.middle_body {
+	display: flex;
+	justify-content: space-between;
+	margin-right: 3%;
+	margin-left: 3%;
+}
+
+.videos {
+	margin-top: 13%;
+	border: solid black;
+}
+
+
+
+
+
+
+.foot {
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	font-size: 2em;
+}
